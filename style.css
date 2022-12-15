@@ -1,8 +1,8 @@
-:root {
+/* :root {
   --bg: #1b2430;
   --bg-table: #007bff;
   --bg-token: #e84959;
-}
+} */
 
 * {
   margin: 0;
@@ -15,7 +15,7 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--bg);
+  background-color: rgb(72, 44, 85);
   color: #fff;
   gap: 1em;
 }
@@ -28,7 +28,7 @@ main > img {
   border: 1px solid transparent;
   padding: 1em;
   border-radius: 1em;
-  background-color: var(--bg-table);
+  background-color: salmon;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -41,7 +41,7 @@ main > img {
   width: 100px;
   height: 100px;
   border-radius: 1em;
-  background-color: var(--bg-token);
+  background-color: rgb(77, 32, 3);
   font-size: 2em;
 
   display: flex;
